@@ -1,0 +1,130 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END OF RESET CODE */
+
+#container {
+	border-radius: 5px;
+	border: 1px solid;
+	margin-left: auto;
+	margin-right: auto;
+	height: 260px;
+	width: 50%;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	padding-bottom: 10px;
+}
+
+body {
+	font-family: georgia;
+	text-align: center;
+}
+
+body h1, h2 {
+	margin: 10px;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+#logo {
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+#question_container {
+	padding: 5px 20px 5px 20px;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 75%;
+	width: 75%;
+	background-color: #fdf2c0;
+}
+
+.radio {
+	/*display: block;*/
+	float: left;
+}
+
+label {
+	display: block;
+	text-align: left;
+/*	background-color: yellow;*/
+	margin: 5px;
+	width: 90%;
+	float: right;
+}
+
+#answer_container {
+	background-color: #fdf2c0;
+}
+
+input[type="submit"], input[type="button"] {
+	float: left;	
+	display: block;
+	margin-left: 45px;
+	border-radius: 4px;
+	color: white;
+	padding: 10px 15px;
+    background: #4479BA;
+}
+
+#check_answer {
+	background: #eedc5b;
+	color: black;
+}
+
+#reset_quiz {
+	background: #db4a38;
+}
+
+
